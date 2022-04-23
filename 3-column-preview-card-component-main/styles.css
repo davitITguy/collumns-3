@@ -1,0 +1,74 @@
+:root{
+    --orange: hsl(31, 77%, 52%);
+    --blue: hsl(184, 100%, 22%);
+    --green: hsl(179, 100%, 13%);
+    --text-white: hsla(0, 0%, 100%, 0.75);
+    --light-gray: hsl(0, 0%, 95%);
+}
+.card--sedans__mod{
+    background-color: var(--orange);
+    position: absolute;
+    left: 0;
+    width: 33%;
+    height: 70%;
+    border: 1px solid var(--orange);
+    color: var(--orange) !important;
+}
+.card--suvs__mod{
+    position: absolute;
+    left: 33%;
+    background-color: var(--blue);
+    width: 33%;
+    height: 70%;
+    border: 1px solid var(--blue);
+    color: var(--blue) !important;
+}
+.card--luxury__mod{
+    position: absolute;
+    left: 66%;
+    background-color: var(--green);
+    width: 33%;
+    height: 70%;
+    border: 1px solid var(--green);
+    color: var(--green) !important;
+}
+.container{
+    width: 900px;
+    height: 600px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+}
+.card{
+    
+    color:var(--text-white);
+}
+.svgs{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+h1{
+    font-family: "Big Shoulders Display";
+    margin-left: 10%;
+    color: var(--light-gray);
+    font-weight: 400;
+}
+p {
+    font-family: "Lexend Deca";
+    margin-left: 10%;
+    font-weight: 700;
+    color: var(--text-white);
+    max-width: 70%;
+}
+button{
+    all: unset;
+    font-family: "Lexend Deca";
+    display: block;
+    margin-left: 10%;
+    position: absolute;
+    bottom: 10%;
+    padding: 3%;
+    background-color: #fff;
+    border-radius: 30px;
+}
